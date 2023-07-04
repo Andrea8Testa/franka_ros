@@ -5,6 +5,7 @@
 
   <!-- Name for this robot -->
   <xacro:arg name="arm_id" default="panda" />
+  <xacro:arg name="gripper_id" default="$(arg arm_id)_franka_gripper" />
 
   <!-- Should a franka_gripper be mounted at the flange?" -->
   <xacro:arg name="hand" default="false" />
